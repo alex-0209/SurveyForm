@@ -1,0 +1,82 @@
+body {
+  font-family: 'Kiwi Maru', serif;
+  font-size: 1.1em;
+}
+
+#outside {
+  background-color: rgb(119, 156, 211);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+form {
+  margin: 0 auto;
+  width: 70%;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  
+}
+#survey-form {
+  background-color: white;
+}
+
+fieldset { 
+  border:1px solid lightgray;
+  margin: 10px;
+ }
+
+legend {
+  font-weight: 500;
+  color: rgb(148, 36, 36);
+}
+
+#number {
+  width: 150px;
+}
+
+
+div + div {
+  margin-top: 1em;
+  }
+
+
+input, textarea {
+  width: 150px;
+  border: 1px solid #999;
+}
+
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  min-height: 100px;
+  resize: vertical;
+}
+
+.button {
+  padding-left: 90px; 
+}
+
+button {
+  margin: .5em;
+  font-size: 0.75em;
+  background-color: rgb(119, 187, 119);
+  color: rgb(59, 54, 54);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+
+#submitbutton {
+  display: flex; 
+  justify-content: center;
+}
+
